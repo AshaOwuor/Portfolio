@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Location</title>
+    <style>
+        #one{
+            width: 120px;
+            height: 80px;
+            background-color: aqua;
+            position: absolute;
+            left: 100px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+#one:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid aqua;
+    border-bottom: 13px solid transparent;
+    margin: 13px 0 0 -25px;
+}
+
+    </style>
+
+</head>
+<body>
+<div id="one">
+    "The most wonderful" Plan International
+</div>
+
+
+</body>
+</html>
